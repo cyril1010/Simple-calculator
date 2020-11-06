@@ -1,0 +1,56 @@
+<HTML>
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width" , initial-scale=1.0;>
+    <title>JS CALCULATOR</title>
+    <link rel="stylesheet" href = "style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+    
+    <h1>Calculator</h1>
+        <div class = "row">
+        <input type ="text" id = "result" placeholder ="Result" readonly> 
+            <button onclick="clearScreen()" id="clear">C</button>
+        </div>
+        <div class="buttonrow">
+            <button onclick="updScreen(1)">1</button>
+            <button onclick="updScreen(2)">2</button>
+            <button onclick="updScreen(3)">3</button>
+            <button onclick="updScreen('*')">x</button>
+        </div>
+        
+         <!--Second row-->
+        <div class="buttonrow">
+            <button onclick="updScreen(4)">4</button>
+            <button onclick="updScreen(5)">5</button>
+            <button onclick="updScreen(6)">6</button>
+            <button onclick="updScreen(+)">+</button>
+            
+        </div>
+        
+        
+        <!--Third row-->
+        <div class ="buttonrow">
+            <button onclick = "updScreen(7)">7</button>
+            <button onclick = "updScreen(8)">8</button>
+            <button onclick = "updScreen(9)">9</button>
+            <button onclick = "updScreen(-)">-</button>
+        </div>
+        
+         <!--Fourth row-->
+        <div class ="buttonrow">
+            <button onclick = "updScreen(/)">/</button>
+            <button onclick = "updScreen(0)">0</button>
+            <button onclick = "updScreen(.)">.</button>
+            <button onclick = "updScreen(=)">=</button>
+        </div>
+        
+        
+    
+        
+        </div>
+     
+</body>    
+</HTML>
